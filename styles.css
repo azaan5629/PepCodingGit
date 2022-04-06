@@ -1,0 +1,101 @@
+/* Basic Resets */
+body{
+    margin: 0;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    box-sizing: border-box;
+    margin:0 2rem 0 2rem;
+}
+
+header{
+    display: flex;
+    margin: 1rem;
+    justify-content: space-between;
+}
+
+
+nav{
+    width: 40%;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    width: 30%;
+}
+
+li{
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.main-img{
+    width: 100%;
+    height: auto;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: red;
+    }
+
+a:active{
+    color: red;
+}   
+
+li{
+    list-style: none;
+}
+
+/* ******** */
+
+
+.parent{
+    display: flex;
+    margin: 2rem 0 2rem 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.child{
+    justify-content: space-evenly;
+    width: 30%;
+    align-items: center;
+    text-align: center;
+}
+
+.child>h1{
+    font-weight:700;
+    margin: .5rem;;
+}
+footer{
+    height: 5rem;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
