@@ -14,6 +14,7 @@ header{
     display: flex;
     margin: 1rem;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -24,11 +25,11 @@ nav{
 
 ul{
     display: flex;
-    width: 30%;
+    justify-content: space-evenly;
 }
 
 li{
-    justify-content: space-between;
+    width: 30%;
     align-items: center;
     font-size: 2rem;
 }
@@ -72,30 +73,31 @@ li{
     display: flex;
     margin: 2rem 0 2rem 0;
     align-items: center;
-    justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
 }
 
 .child{
-    justify-content: space-evenly;
     width: 30%;
-    align-items: center;
-    text-align: center;
 }
 
 .child>h1{
     font-weight:700;
     margin: .5rem;;
 }
-footer{
+.footer-parent{
     height: 5rem;
     width: 100%;
     background-color: black;
     text-align: center;
-    color: white;
-    font-size: 1.5rem;
-    font-weight: 700;
-    text-transform: uppercase;
     display: flex;
     align-items: center;
     justify-content: center;
+    }
+
+    .footer-content{
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-transform: uppercase;
     }
